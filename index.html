@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tổng hợp 5 Bài tập CSS/CSS3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background: #ffffff;
+            max-width: 650px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        ul.exercise-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul.exercise-list li {
+            margin-bottom: 15px;
+        }
+        ul.exercise-list li a {
+            display: block;
+            padding: 15px 20px;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        ul.exercise-list li a:hover {
+            background-color: #2980b9;
+            transform: translateX(5px);
+        }
+        ul.exercise-list li a span {
+            display: block;
+            font-size: 13px;
+            font-weight: normal;
+            color: #ecf0f1;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BÀI TẬP CHƯƠNG CSS / CSS3</h1>
+        <p class="subtitle">Danh sách 5 bài tập thực hành Thiết kế Web</p>
+        
+        <ul class="exercise-list">
+            <li>
+                <a href="bai1.html" target="_blank">
+                    Bài 1: Các kiểu định dạng khung viền (Bài 2.1.5)
+                    <span>Sử dụng 3 thẻ &lt;div&gt; lồng nhau với border, border-radius và padding</span>
+                </a>
+            </li>
+            <li>
+                <a href="bai2.html" target="_blank">
+                    Bài 2: Định dạng hỗn hợp (Bài 2.1.6)
+                    <span>Sử dụng thẻ &lt;span&gt;, class CSS và liên kết file CSS ngoài</span>
+                </a>
+            </li>
+            <li>
+                <a href="bai3.html" target="_blank">
+                    Bài 3: Thiết kế Menu ngang một cấp (Bài 2.3.1)
+                    <span>Sử dụng danh sách &lt;ul&gt; &lt;li&gt; kết hợp thuộc tính float và :hover</span>
+                </a>
+            </li>
+            <li>
+                <a href="bai4.html" target="_blank">
+                    Bài 4: Thiết kế Menu ngang hai cấp (Bài 2.3.2)
+                    <span>Menu đa cấp xổ xuống khi di chuột (position: absolute/relative)</span>
+                </a>
+            </li>
+            <li>
+                <a href="bai5.html" target="_blank">
+                    Bài 5: Tạo chữ Drop Cap & Chia cột báo (Bài 2.4.1 & 2.4.2)
+                    <span>Sử dụng pseudo-element :first-letter và thuộc tính column-count</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
